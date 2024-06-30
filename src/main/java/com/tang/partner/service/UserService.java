@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.tang.partner.model.domain.User;
 import jakarta.servlet.http.HttpServletRequest;
 
+import java.util.List;
+
 /**
  * @author 19572
  * @description 针对表【user(用户)】的数据库操作Service
@@ -45,4 +47,13 @@ public interface UserService extends IService<User> {
      * @return
      */
     int userLogout(HttpServletRequest request);
+
+    List<User> searchUserByTags(List<String> tagList);
+
+    /**
+     * 根据标签搜索用户
+     *
+     * @param tagList
+     * @return
+     */
 }
