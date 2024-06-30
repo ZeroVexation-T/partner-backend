@@ -1,4 +1,4 @@
-package com.tang.usercenter02.contant;
+package com.tang.partner.contant;
 
 /**
  * 用户常量

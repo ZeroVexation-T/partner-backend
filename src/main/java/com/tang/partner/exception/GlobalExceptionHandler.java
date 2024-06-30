@@ -1,8 +1,8 @@
-package com.tang.usercenter02.exception;
+package com.tang.partner.exception;
 
-import com.tang.usercenter02.common.BaseResponse;
-import com.tang.usercenter02.common.ErrorCode;
-import com.tang.usercenter02.common.ResultUtils;
+import com.tang.partner.common.BaseResponse;
+import com.tang.partner.common.ErrorCode;
+import com.tang.partner.common.ResultUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

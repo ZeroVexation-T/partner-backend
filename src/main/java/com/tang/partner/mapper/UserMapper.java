@@ -1,7 +1,7 @@
-package com.tang.usercenter02.mapper;
+package com.tang.partner.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.tang.usercenter02.model.domain.User;
+import com.tang.partner.model.domain.User;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

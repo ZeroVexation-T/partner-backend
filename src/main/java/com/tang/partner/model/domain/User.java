@@ -1,4 +1,4 @@
-package com.tang.usercenter02.model.domain;
+package com.tang.partner.model.domain;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;

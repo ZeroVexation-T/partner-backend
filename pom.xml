@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.tang</groupId>
-    <artifactId>user-center02</artifactId>
+    <artifactId>partner</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>user-center02</name>
-    <description>user-center02</description>
+    <name>partner</name>
+    <description>partner</description>
     <properties>
         <java.version>17</java.version>
     </properties>

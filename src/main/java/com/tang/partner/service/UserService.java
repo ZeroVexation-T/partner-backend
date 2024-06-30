@@ -1,7 +1,7 @@
-package com.tang.usercenter02.service;
+package com.tang.partner.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.tang.usercenter02.model.domain.User;
+import com.tang.partner.model.domain.User;
 import jakarta.servlet.http.HttpServletRequest;
 
 /**

@@ -1,4 +1,4 @@
-package com.tang.usercenter02.model.domain.request;
+package com.tang.partner.model.domain.request;
 
 import lombok.Data;
 

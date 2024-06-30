@@ -1,14 +1,14 @@
-package com.tang.usercenter02.controller;
+package com.tang.partner.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.tang.usercenter02.common.BaseResponse;
-import com.tang.usercenter02.common.ErrorCode;
-import com.tang.usercenter02.common.ResultUtils;
-import com.tang.usercenter02.exception.BusinessException;
-import com.tang.usercenter02.model.domain.User;
-import com.tang.usercenter02.model.domain.request.UserLoginRequest;
-import com.tang.usercenter02.model.domain.request.UserRegisterRequest;
-import com.tang.usercenter02.service.UserService;
+import com.tang.partner.common.BaseResponse;
+import com.tang.partner.common.ErrorCode;
+import com.tang.partner.common.ResultUtils;
+import com.tang.partner.exception.BusinessException;
+import com.tang.partner.model.domain.User;
+import com.tang.partner.model.domain.request.UserLoginRequest;
+import com.tang.partner.model.domain.request.UserRegisterRequest;
+import com.tang.partner.service.UserService;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;
 import org.apache.commons.lang3.StringUtils;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.tang.usercenter02.contant.UserContant.ADMIN_ROLE;
-import static com.tang.usercenter02.contant.UserContant.USER_LOGIN_STATE;
+import static com.tang.partner.contant.UserContant.ADMIN_ROLE;
+import static com.tang.partner.contant.UserContant.USER_LOGIN_STATE;
 
 
 /**

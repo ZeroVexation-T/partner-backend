@@ -1,12 +1,12 @@
-package com.tang.usercenter02.service.impl;
+package com.tang.partner.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.tang.usercenter02.common.ErrorCode;
-import com.tang.usercenter02.exception.BusinessException;
-import com.tang.usercenter02.mapper.UserMapper;
-import com.tang.usercenter02.model.domain.User;
-import com.tang.usercenter02.service.UserService;
+import com.tang.partner.common.ErrorCode;
+import com.tang.partner.exception.BusinessException;
+import com.tang.partner.mapper.UserMapper;
+import com.tang.partner.model.domain.User;
+import com.tang.partner.service.UserService;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
@@ -17,7 +17,7 @@ import org.springframework.util.DigestUtils;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.tang.usercenter02.contant.UserContant.USER_LOGIN_STATE;
+import static com.tang.partner.contant.UserContant.USER_LOGIN_STATE;
 
 /**
 * @author 19572

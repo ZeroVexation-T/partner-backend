@@ -1,6 +1,6 @@
-package com.tang.usercenter02.exception;
+package com.tang.partner.exception;
 
-import com.tang.usercenter02.common.ErrorCode;
+import com.tang.partner.common.ErrorCode;
 
 /**
  * 自定义异常类

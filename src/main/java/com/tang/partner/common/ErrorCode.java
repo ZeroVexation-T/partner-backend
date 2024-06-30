@@ -1,4 +1,4 @@
-package com.tang.usercenter02.common;
+package com.tang.partner.common;
 
 /**
  * 错误码
